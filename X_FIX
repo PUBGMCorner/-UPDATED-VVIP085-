@@ -18,35 +18,6 @@ gg.alert([[
 gg.alert([[
 🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
-⚠️PLEASE ENTER YOUR SECRET VVIP ID⚠️
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
-🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
-]])
-pass = "X666"
-prompt = gg.prompt({
-  " 🆔PLEASE ENTER VVIP ID🆔"
-}, {
-  [1] = 0
-}, {
-  [1] = "number"
-})
-function right()
-  gg.alert("✔️ VERIFIED!✔️")
-end
-function wrong()
-  gg.alert("❎ REJECTED ❎!")
-  os.exit()
-end
-if prompt[1] == pass then
-  right()
-else
-  wrong()
-end
-HOME = 1
-
-gg.alert([[
-🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸🌸
-🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
    ㊗️ USER VERIVIED AS VVIP MEMBER ㊗️
 🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹🔹
 ㊗️WELCOME BACK KEPALA SUKU BARBAR㊗️
@@ -1327,7 +1298,7 @@ function HO4()
   gg.searchNumber("9.201618;30.5;25", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("25;30.5", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(10)
-  gg.editAll("250", gg.TYPE_FLOAT)
+  gg.editAll("750", gg.TYPE_FLOAT)
   gg.clearResults()
   gg.toast("HEADSHOT 97% Activated")
 end
