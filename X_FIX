@@ -169,7 +169,7 @@ function WnC()
 end
 
 function OCL()
-  gg.setRanges(gg.REGION_BAD)
+   gg.setRanges(gg.REGION_BAD)
   gg.searchNumber("4.814603e21;3.5032462e-44;3.7615819e-37;2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(30)
@@ -192,7 +192,7 @@ function OCL()
   gg.searchNumber("2", gg.TYPE_FLOAT, false, gg.SIGN_EQUAL, 0, -1)
   gg.getResults(30)
   gg.editAll("120", gg.TYPE_FLOAT)
-  gg.toast("Wallhack SD 625 V2 Aktif")
+  gg.toast("WallHack Global Activated")
 	
   gg.clearResults()
   gg.setRanges(gg.REGION_BAD)
